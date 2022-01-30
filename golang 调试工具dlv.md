@@ -60,6 +60,9 @@ dlv exec ./main # 进入dlv 窗口
 (dlv) 
 ```
 
+dlv 带参数
+dlv exec ./main -- -config=config.yaml
+
 # 参考
 - https://github.com/go-delve/delve/blob/master/Documentation/cli/getting_started.md
 - https://pytimer.github.io/2018/06/go%E8%B0%83%E8%AF%95%E5%B7%A5%E5%85%B7delve/
